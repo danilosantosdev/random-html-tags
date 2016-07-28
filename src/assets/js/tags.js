@@ -32,5 +32,6 @@
 	}
 
 	window.tags = insideTags;
+	
 	return 1;
 })();

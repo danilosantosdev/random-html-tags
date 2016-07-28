@@ -6,7 +6,10 @@
 			The HTML &lt;whisky&gt; is the best thing invented.
 		section#tag-example
 			<p>Example:</p>
-			p(id="example", data-height="265", data-theme-id="0", data-slug-hash="" data-default-tab="html,result", data-user="", data-embed-version="2", class="codepen")
+			if code !== undefined
+				p(id="example", data-height="265", data-theme-id="0", data-slug-hash="" data-default-tab="html,result", data-user="", data-embed-version="2", class="codepen")
+			else
+				<p>Not available!</p>				
 
 	.card-footer
 		a(id="other-tag", href="#!") Generate other <i class="fa fa-refresh"></i> 
